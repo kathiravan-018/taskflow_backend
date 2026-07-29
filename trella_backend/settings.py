@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-$2_*7ssx!hx6v^pubz$_v(h4^3^ew3-6#u#4l2&lsg)26(43(g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 
@@ -52,7 +52,7 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    "https://taskflow-kanbon.netlify.app/",
+    "https://taskflow-kanbon.netlify.app",
 ]
 
 ALLOWED_HOSTS = [
